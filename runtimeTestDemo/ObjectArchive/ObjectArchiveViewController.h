@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ObjectArchiveViewController.h
 //  runtimeTestDemo
 //
 //  Created by 郭刚 on 2018/10/31.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface ObjectArchiveViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
