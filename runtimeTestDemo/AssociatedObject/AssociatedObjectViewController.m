@@ -7,6 +7,7 @@
 //
 
 #import "AssociatedObjectViewController.h"
+#import "NSObject+Property.h"
 
 @interface AssociatedObjectViewController ()
 
@@ -16,6 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor purpleColor];
+    
+    NSObject *anObject = [[NSObject alloc] init];
+    anObject.name = @"Alton";
+
+    // NSObject 并没有 name 这个属性, 通过 Runtime 成功添加了这个属性
+    NSLog(@"%@",anObject.name);
     // Do any additional setup after loading the view.
 }
 

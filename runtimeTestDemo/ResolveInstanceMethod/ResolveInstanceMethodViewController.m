@@ -7,6 +7,7 @@
 //
 
 #import "ResolveInstanceMethodViewController.h"
+#import "ResolveInstanceMethodCat.h"
 
 @interface ResolveInstanceMethodViewController ()
 
@@ -16,17 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    ResolveInstanceMethodCat *billy = [[ResolveInstanceMethodCat alloc] init];
+    
+    // 这个时候 billy 对象并没有 run: 方法
+    // 所以会进入 + (BooL)resolveClassMethod:(SEL)sel 处理
+    // 然后方法被动态添加
+    [billy performSelector:@selector(run:) withObject:@10];
+    
     // Do any additional setup after loading the view.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

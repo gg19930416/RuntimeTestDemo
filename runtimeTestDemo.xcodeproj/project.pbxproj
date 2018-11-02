@@ -24,6 +24,15 @@
 		C67FCA542189BFF10075227F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67FCA532189BFF10075227F /* RootViewController.m */; };
 		C67FCA57218A9F110075227F /* RootTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C67FCA56218A9F110075227F /* RootTableView.m */; };
 		C6946206218AE1A80003254A /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = C6946205218AE1A80003254A /* Cat.m */; };
+		C6946209218B0F2E0003254A /* NSDate+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C6946208218B0F2E0003254A /* NSDate+Model.m */; };
+		C694620C218BF1C00003254A /* GithubUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C694620B218BF1C00003254A /* GithubUser.m */; };
+		C6946212218BF8B40003254A /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = C6946211218BF8B40003254A /* NSObject+Property.m */; };
+		C6946215218C285F0003254A /* ForwardCat.m in Sources */ = {isa = PBXBuildFile; fileRef = C6946214218C285F0003254A /* ForwardCat.m */; };
+		C6946218218C39DD0003254A /* ResolveInstanceMethodCat.m in Sources */ = {isa = PBXBuildFile; fileRef = C6946217218C39DD0003254A /* ResolveInstanceMethodCat.m */; };
+		C694621B218C491E0003254A /* UIImage+Success.m in Sources */ = {isa = PBXBuildFile; fileRef = C694621A218C491E0003254A /* UIImage+Success.m */; };
+		C694621D218C4D210003254A /* 446f4aa2a6.png in Resources */ = {isa = PBXBuildFile; fileRef = C694621C218C4D210003254A /* 446f4aa2a6.png */; };
+		C6946222218C56320003254A /* NSObject+Archive.m in Sources */ = {isa = PBXBuildFile; fileRef = C6946221218C56320003254A /* NSObject+Archive.m */; };
+		C6946225218C5C7A0003254A /* ArchiveCat.m in Sources */ = {isa = PBXBuildFile; fileRef = C6946224218C5C7A0003254A /* ArchiveCat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +87,23 @@
 		C67FCA56218A9F110075227F /* RootTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTableView.m; sourceTree = "<group>"; };
 		C6946204218AE1A80003254A /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		C6946205218AE1A80003254A /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		C6946207218B0F2E0003254A /* NSDate+Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Model.h"; sourceTree = "<group>"; };
+		C6946208218B0F2E0003254A /* NSDate+Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Model.m"; sourceTree = "<group>"; };
+		C694620A218BF1C00003254A /* GithubUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GithubUser.h; sourceTree = "<group>"; };
+		C694620B218BF1C00003254A /* GithubUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubUser.m; sourceTree = "<group>"; };
+		C6946210218BF8B40003254A /* NSObject+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		C6946211218BF8B40003254A /* NSObject+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		C6946213218C285F0003254A /* ForwardCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardCat.h; sourceTree = "<group>"; };
+		C6946214218C285F0003254A /* ForwardCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardCat.m; sourceTree = "<group>"; };
+		C6946216218C39DD0003254A /* ResolveInstanceMethodCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResolveInstanceMethodCat.h; sourceTree = "<group>"; };
+		C6946217218C39DD0003254A /* ResolveInstanceMethodCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResolveInstanceMethodCat.m; sourceTree = "<group>"; };
+		C6946219218C491E0003254A /* UIImage+Success.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Success.h"; sourceTree = "<group>"; };
+		C694621A218C491E0003254A /* UIImage+Success.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Success.m"; sourceTree = "<group>"; };
+		C694621C218C4D210003254A /* 446f4aa2a6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 446f4aa2a6.png; sourceTree = "<group>"; };
+		C6946220218C56320003254A /* NSObject+Archive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Archive.h"; sourceTree = "<group>"; };
+		C6946221218C56320003254A /* NSObject+Archive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Archive.m"; sourceTree = "<group>"; };
+		C6946223218C5C7A0003254A /* ArchiveCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchiveCat.h; sourceTree = "<group>"; };
+		C6946224218C5C7A0003254A /* ArchiveCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchiveCat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,8 +208,11 @@
 		C67FCA372189B6880075227F /* MethodSwizzling */ = {
 			isa = PBXGroup;
 			children = (
+				C694621C218C4D210003254A /* 446f4aa2a6.png */,
 				C67FCA4C2189BCCC0075227F /* MethodSwizzlingViewController.h */,
 				C67FCA4D2189BCCC0075227F /* MethodSwizzlingViewController.m */,
+				C6946219218C491E0003254A /* UIImage+Success.h */,
+				C694621A218C491E0003254A /* UIImage+Success.m */,
 			);
 			path = MethodSwizzling;
 			sourceTree = "<group>";
@@ -193,6 +222,8 @@
 			children = (
 				C67FCA492189BCC10075227F /* ResolveInstanceMethodViewController.h */,
 				C67FCA4A2189BCC10075227F /* ResolveInstanceMethodViewController.m */,
+				C6946216218C39DD0003254A /* ResolveInstanceMethodCat.h */,
+				C6946217218C39DD0003254A /* ResolveInstanceMethodCat.m */,
 			);
 			path = ResolveInstanceMethod;
 			sourceTree = "<group>";
@@ -202,6 +233,8 @@
 			children = (
 				C67FCA462189BCB80075227F /* ForwardMessageViewController.h */,
 				C67FCA472189BCB80075227F /* ForwardMessageViewController.m */,
+				C6946213218C285F0003254A /* ForwardCat.h */,
+				C6946214218C285F0003254A /* ForwardCat.m */,
 			);
 			path = ForwardMessage;
 			sourceTree = "<group>";
@@ -211,6 +244,8 @@
 			children = (
 				C67FCA432189BCAF0075227F /* AssociatedObjectViewController.h */,
 				C67FCA442189BCAF0075227F /* AssociatedObjectViewController.m */,
+				C6946210218BF8B40003254A /* NSObject+Property.h */,
+				C6946211218BF8B40003254A /* NSObject+Property.m */,
 			);
 			path = AssociatedObject;
 			sourceTree = "<group>";
@@ -220,6 +255,10 @@
 			children = (
 				C67FCA402189BC9D0075227F /* MakeModelViewController.h */,
 				C67FCA412189BC9D0075227F /* MakeModelViewController.m */,
+				C6946207218B0F2E0003254A /* NSDate+Model.h */,
+				C6946208218B0F2E0003254A /* NSDate+Model.m */,
+				C694620A218BF1C00003254A /* GithubUser.h */,
+				C694620B218BF1C00003254A /* GithubUser.m */,
 			);
 			path = MakeModel;
 			sourceTree = "<group>";
@@ -229,6 +268,10 @@
 			children = (
 				C67FCA3D2189B75A0075227F /* ObjectArchiveViewController.h */,
 				C67FCA3E2189B75A0075227F /* ObjectArchiveViewController.m */,
+				C6946220218C56320003254A /* NSObject+Archive.h */,
+				C6946221218C56320003254A /* NSObject+Archive.m */,
+				C6946223218C5C7A0003254A /* ArchiveCat.h */,
+				C6946224218C5C7A0003254A /* ArchiveCat.m */,
 			);
 			path = ObjectArchive;
 			sourceTree = "<group>";
@@ -336,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C694621D218C4D210003254A /* 446f4aa2a6.png in Resources */,
 				C67FC95F2189B0890075227F /* LaunchScreen.storyboard in Resources */,
 				C67FC95C2189B0890075227F /* Assets.xcassets in Resources */,
 				C67FC95A2189B0850075227F /* Main.storyboard in Resources */,
@@ -364,16 +408,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6946206218AE1A80003254A /* Cat.m in Sources */,
+				C6946225218C5C7A0003254A /* ArchiveCat.m in Sources */,
 				C67FCA4B2189BCC10075227F /* ResolveInstanceMethodViewController.m in Sources */,
 				C67FCA482189BCB80075227F /* ForwardMessageViewController.m in Sources */,
 				C67FC9622189B0890075227F /* main.m in Sources */,
+				C6946215218C285F0003254A /* ForwardCat.m in Sources */,
+				C694621B218C491E0003254A /* UIImage+Success.m in Sources */,
 				C67FCA4E2189BCCC0075227F /* MethodSwizzlingViewController.m in Sources */,
 				C67FCA57218A9F110075227F /* RootTableView.m in Sources */,
 				C67FCA542189BFF10075227F /* RootViewController.m in Sources */,
+				C6946209218B0F2E0003254A /* NSDate+Model.m in Sources */,
 				C67FCA3F2189B75A0075227F /* ObjectArchiveViewController.m in Sources */,
+				C6946222218C56320003254A /* NSObject+Archive.m in Sources */,
 				C67FCA452189BCAF0075227F /* AssociatedObjectViewController.m in Sources */,
 				C67FCA422189BC9D0075227F /* MakeModelViewController.m in Sources */,
+				C6946218218C39DD0003254A /* ResolveInstanceMethodCat.m in Sources */,
+				C694620C218BF1C00003254A /* GithubUser.m in Sources */,
 				C67FC9542189B0850075227F /* AppDelegate.m in Sources */,
+				C6946212218BF8B40003254A /* NSObject+Property.m in Sources */,
 				C67FCA512189BCD50075227F /* MessageingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

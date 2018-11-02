@@ -35,6 +35,7 @@
 - (void)didSelectedTableViewRowDidlick:(NSIndexPath *)indexPath pushVC:(NSString *)vc{
     UIViewController *viewConttroller = [self stringChangeToClass:vc];
     if (vc) {
+        viewConttroller.navigationItem.title = vc;
         [self.navigationController pushViewController:viewConttroller animated:YES];
     }
 }
