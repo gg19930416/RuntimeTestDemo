@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "runtimeTestDemo/MakeModel/MakeModelViewController.m"
-            timestampString = "562848382.878702"
+            timestampString = "563097959.138555"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -26,13 +26,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "runtimeTestDemo/MethodSwizzling/UIImage+Success.m"
-            timestampString = "562848382.8787791"
+            timestampString = "563097959.138891"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
             endingLineNumber = "27"
             landmarkName = "+tuc_imageNamed:"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "1"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -53,7 +53,7 @@
     if (!_submitBtn) {
         _submitBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];
         [_submitBtn setTitle:@"提交" forState:(UIControlStateNormal)];
-        _submitBtn.backgroundColor = [UIColor yellowColor];
+        _submitBtn.backgroundColor = [UIColor blueColor];
         [_submitBtn addTarget:self action:@selector(submitBtnDidClicked:) forControlEvents:(UIControlEventTouchUpInside)];
         _submitBtn.frame = CGRectMake(100, CGRectGetMaxY(_textField.frame)+50, 100, 40);
     }

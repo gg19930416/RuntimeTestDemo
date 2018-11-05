@@ -30,14 +30,15 @@
             // 如果有实现忽略属性的方法
             if ([self respondsToSelector:@selector(ignoredProperty)]) {
                 // 就跳过这个属性
-                if ([[selfClass ignoredProperty] containsObject:key]) continue;
+                if ([[self ignoredProperty] containsObject:key]) continue;
             }
             
             id value = [aDecoder decodeObjectForKey:key];
-            [selfClass setValue:value forKey:key];
+            [self setValue:value forKey:key];
         }
         selfClass = [selfClass superclass];
     }
+    
     
 }
 

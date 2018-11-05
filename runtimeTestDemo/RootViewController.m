@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor yellowColor];
+    self.view.backgroundColor = [UIColor blueColor];
     self.view = self.rootView;
     self.navigationItem.title = @"Runtime 测试demo";
 }
